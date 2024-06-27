@@ -2,12 +2,12 @@
 data_source aws_postgres_retail:
   type: snowflake
   host: soda-demo
-  username: ${prabhus}
-  password: ${Sastika@2023}
+  username: prabhus
+  password: Sastika@2023
   database: snowflake
   schema: mk_testing
 # Refer to https://go.soda.io/api-keys
 soda_cloud:
   host: cloud.us.soda.io
-  api_key_id: ${bb23ac77-4d3a-4ea3-86f8-238234ae7aea}
-  api_key_secret: ${k0Rxa_UFD9VK8C6rpttMje4faCxv_WfxqELnZHDp5X8xAMAsW7OGsg}
+  api_key_id: bb23ac77-4d3a-4ea3-86f8-238234ae7aea
+  api_key_secret: k0Rxa_UFD9VK8C6rpttMje4faCxv_WfxqELnZHDp5X8xAMAsW7OGsg
